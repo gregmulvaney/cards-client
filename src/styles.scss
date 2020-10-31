@@ -1,6 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+$mediaMaxWidth: 1500px;
+
+@media only screen and (-webkit-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+  #root {
+    width: 100%;
+  }
+}
+
 html, body {
+  display: flex;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   margin: 0;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  @media screen and (min-width: $mediaMaxWidth) {
+    width: $mediaMaxWidth;
+  }
+}
+
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
