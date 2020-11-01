@@ -1,9 +1,22 @@
 .card {
-  height:31vh;
+  height: 31vh;
   width: 21vh;
   padding: 8px;
   border: 1px solid #999;
   border-radius: 0.25rem;
   display: flex;
   position: relative;
+  box-shadow: 5px 5px 5px rgba(40, 40, 40, 0.2);
+}
+
+.card-text {
+  font-weight: bold;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 10px;
+  left: 1rem;
+  width: 100%;
+  font-size: 0.5rem;
 }
