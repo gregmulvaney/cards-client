@@ -7,6 +7,7 @@
   display: flex;
   position: relative;
   box-shadow: 5px 5px 5px rgba(40, 40, 40, 0.2);
+  cursor: pointer;
 }
 
 .card-text {
@@ -18,5 +19,6 @@
   bottom: 10px;
   left: 1rem;
   width: 100%;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
+  font-weight: bold;
 }
