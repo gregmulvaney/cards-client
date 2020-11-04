@@ -1,10 +1,9 @@
-<div class="card" [ngClass]="black ? 'black' : ''">
+<div class="card" [ngClass]="black ? 'black' : 'white'">
   <div class="card-text" *ngIf="!flipped">
     <ng-content></ng-content>
   </div>
   <div *ngIf="flipped" class="card-back">{{ brandText }}</div>
   <div class="card-footer" *ngIf="!flipped">
     {{ brandText }}
-    test
   </div>
 </div>
