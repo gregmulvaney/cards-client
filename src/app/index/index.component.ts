@@ -10,7 +10,7 @@ export class IndexComponent implements OnInit {
   constructor(private router: Router) {}
 
   joinRoute(): void {
-    //
+    this.router.navigateByUrl('/game/join');
   }
 
   createRoute(): void {

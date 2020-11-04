@@ -1,9 +1,13 @@
 <div class="splash">
   <div class="d-flex flex-row mb-3">
-    <app-card [className]="'mx-2'">I would like to ______</app-card>
-    <app-card [className]="'mx-2'"></app-card>
+    <app-card [black]="true">I would like to ______</app-card>
   </div>
   <div class="d-flex flex-row">
-    <app-card [className]="'mx-2'" (click)="createRoute()"></app-card>
+    <app-card [className]="'mx-2'" (click)="createRoute()">
+      Create a new game
+    </app-card>
+    <app-card [className]="'mx-2'" (click)="joinRoute()">
+      Join a game
+    </app-card>
   </div>
 </div>

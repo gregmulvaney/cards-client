@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { IndexComponent } from './index/index.component';
 import { CreateComponent } from './create/create.component';
+import { JoinComponent } from './join/join.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
     IndexComponent,
-    CreateComponent
+    CreateComponent,
+    JoinComponent
   ],
   imports: [
     BrowserModule,
