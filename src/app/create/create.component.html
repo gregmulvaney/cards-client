@@ -1,1 +1,19 @@
-<p>create works!</p>
+<div class="splash">
+  <div class="d-flex flex-row mb-3">
+    <app-card [black]="true"> Sup, fuckers. My name is ______ </app-card>
+  </div>
+  <div class="d-flex flex-row">
+    <app-card>
+      <form (submit)="handleSubmit($event)">
+        <input
+          (keydown)="handleNameChange($event)"
+          type="text"
+          name="name"
+          id="name"
+          class="card-input"
+          placeholder="Enter your name"
+        />
+      </form>
+    </app-card>
+  </div>
+</div>
